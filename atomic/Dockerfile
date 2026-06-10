@@ -18,7 +18,8 @@ RUN conda create -y -n atomic \
     ambertools \
     pdbfixer \
     parmed \
-    acpype
+    acpype \
+    gmx_MMPBSA
 
 FROM rama43/mds-base:2026.1
 
