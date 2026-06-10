@@ -9,11 +9,11 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
     build-essential \
-	openmpi-bin \
+    openmpi-bin \
     libfftw3-dev \
     python3 \
     python3-pip \
-	cmake \
+    cmake \
     git \
     wget \
     curl \
@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     tar \
     less \
-	openmpi-bin \
+    openmpi-bin \
     libopenmpi-dev \
     gcc \
     g++ \
